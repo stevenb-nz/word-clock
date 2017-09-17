@@ -40,7 +40,14 @@ End
 #tag WindowCode
 	#tag Event
 		Sub Open()
-		  'read time, assign to properties, set display
+		  dim d as new Date
+		  
+		  time_hour = val(left(d.ShortTime,InStr(d.ShortTime,":")-1))
+		  time_5min = floor(val(Mid(d.shorttime,instr(d.ShortTime,":")+1,2))/5)*5
+		  
+		  'update 5min display
+		  'update hour display
+		  
 		End Sub
 	#tag EndEvent
 
@@ -59,7 +66,18 @@ End
 #tag Events timeTimer
 	#tag Event
 		Sub Action()
-		  'read time, check if change to properties, change display if changed
+		  dim d as new Date
+		  
+		  if val(left(d.ShortTime,InStr(d.ShortTime,":")-1)) <> time_hour then
+		    time_hour = val(left(d.ShortTime,InStr(d.ShortTime,":")-1))
+		    'update hour display
+		    MsgBox "hour changed"
+		  end if
+		  if floor(val(Mid(d.shorttime,instr(d.ShortTime,":")+1,2))/5)*5 <> time_5min then
+		    time_5min = floor(val(Mid(d.shorttime,instr(d.ShortTime,":")+1,2))/5)*5
+		    'update 5min display
+		    MsgBox "new 5 minutes"
+		  end if
 		  
 		End Sub
 	#tag EndEvent
@@ -266,6 +284,11 @@ End
 		Group="ID"
 		Type="String"
 		EditorType="String"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="time_5min"
+		Group="Behavior"
+		Type="Integer"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="time_hour"
