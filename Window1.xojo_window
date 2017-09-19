@@ -34,6 +34,74 @@ Begin Window Window1
       Scope           =   0
       TabPanelIndex   =   0
    End
+   Begin Label display_hour
+      AutoDeactivate  =   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Multiline       =   False
+      Scope           =   0
+      Selectable      =   False
+      TabIndex        =   0
+      TabPanelIndex   =   0
+      Text            =   "Untitled"
+      TextAlign       =   0
+      TextColor       =   &c00000000
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   20
+      Transparent     =   True
+      Underline       =   False
+      Visible         =   True
+      Width           =   100
+   End
+   Begin Label display_5min
+      AutoDeactivate  =   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   132
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Multiline       =   False
+      Scope           =   0
+      Selectable      =   False
+      TabIndex        =   1
+      TabPanelIndex   =   0
+      Text            =   "Untitled"
+      TextAlign       =   0
+      TextColor       =   &c00000000
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   20
+      Transparent     =   True
+      Underline       =   False
+      Visible         =   True
+      Width           =   100
+   End
 End
 #tag EndWindow
 
@@ -44,8 +112,8 @@ End
 		  
 		  time_hour = get_hour(d)
 		  time_5min = get_5min(d)
-		  'update 5min display
-		  'update hour display
+		  set_hour_display
+		  set_5min_display
 		  
 		End Sub
 	#tag EndEvent
@@ -61,6 +129,20 @@ End
 		Function get_hour(d as Date) As integer
 		  return val(left(d.ShortTime,InStr(d.ShortTime,":")-1))
 		End Function
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub set_5min_display()
+		  display_5min.Text = str(time_5min)
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub set_hour_display()
+		  display_hour.text = str(time_hour)
+		  
+		End Sub
 	#tag EndMethod
 
 
@@ -84,14 +166,12 @@ End
 		  d_hour = get_hour(d)
 		  if d_hour <> time_hour then
 		    time_hour = d_hour
-		    'update hour display
-		    MsgBox "hour changed"
+		    set_hour_display
 		  end if
 		  d_5min = get_5min(d)
 		  if d_5min <> time_5min then
 		    time_5min = d_5min
-		    'update 5min display
-		    MsgBox "new 5 minutes"
+		    set_5min_display
 		  end if
 		  
 		End Sub
