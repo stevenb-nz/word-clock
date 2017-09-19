@@ -42,14 +42,26 @@ End
 		Sub Open()
 		  dim d as new Date
 		  
-		  time_hour = val(left(d.ShortTime,InStr(d.ShortTime,":")-1))
-		  time_5min = floor(val(Mid(d.shorttime,instr(d.ShortTime,":")+1,2))/5)*5
-		  
+		  time_hour = get_hour(d)
+		  time_5min = get_5min(d)
 		  'update 5min display
 		  'update hour display
 		  
 		End Sub
 	#tag EndEvent
+
+
+	#tag Method, Flags = &h0
+		Function get_5min(d as Date) As integer
+		  return floor(val(Mid(d.shorttime,instr(d.ShortTime,":")+1,2))/5)*5
+		End Function
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Function get_hour(d as Date) As integer
+		  return val(left(d.ShortTime,InStr(d.ShortTime,":")-1))
+		End Function
+	#tag EndMethod
 
 
 	#tag Property, Flags = &h0
@@ -67,14 +79,17 @@ End
 	#tag Event
 		Sub Action()
 		  dim d as new Date
+		  dim d_5min, d_hour as integer
 		  
-		  if val(left(d.ShortTime,InStr(d.ShortTime,":")-1)) <> time_hour then
-		    time_hour = val(left(d.ShortTime,InStr(d.ShortTime,":")-1))
+		  d_hour = get_hour(d)
+		  if d_hour <> time_hour then
+		    time_hour = d_hour
 		    'update hour display
 		    MsgBox "hour changed"
 		  end if
-		  if floor(val(Mid(d.shorttime,instr(d.ShortTime,":")+1,2))/5)*5 <> time_5min then
-		    time_5min = floor(val(Mid(d.shorttime,instr(d.ShortTime,":")+1,2))/5)*5
+		  d_5min = get_5min(d)
+		  if d_5min <> time_5min then
+		    time_5min = d_5min
 		    'update 5min display
 		    MsgBox "new 5 minutes"
 		  end if
