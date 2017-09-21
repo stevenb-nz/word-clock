@@ -140,7 +140,10 @@ End
 
 	#tag Method, Flags = &h0
 		Sub set_hour_display()
-		  display_hour.text = str(time_hour)
+		  dim display_hour_value as Integer
+		  
+		  display_hour_value = if(time_5min > 30, if(time_hour<12, time_hour+1, 1), time_hour)
+		  display_hour.text = str(display_hour_value)
 		  
 		End Sub
 	#tag EndMethod
