@@ -133,7 +133,9 @@ End
 
 	#tag Method, Flags = &h0
 		Sub set_5min_display()
-		  display_5min.Text = str(time_5min)
+		  
+		  display_5min.Text = if(time_5min > 30, str(60-time_5min)+" to", str(time_5min)+" past")
+		  
 		  
 		End Sub
 	#tag EndMethod
