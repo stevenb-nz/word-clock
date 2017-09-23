@@ -45,7 +45,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   20
+      Left            =   244
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -136,6 +136,8 @@ End
 		  
 		  display_5min.Text = if(time_5min > 30, str(60-time_5min)+" to", str(time_5min)+" past")
 		  
+		  
+		  'replace with case statement
 		  
 		End Sub
 	#tag EndMethod
