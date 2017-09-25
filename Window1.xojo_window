@@ -133,11 +133,36 @@ End
 
 	#tag Method, Flags = &h0
 		Sub set_5min_display()
+		  dim display_5min_value As String
 		  
-		  display_5min.Text = if(time_5min > 30, str(60-time_5min)+" to", str(time_5min)+" past")
+		  Select Case time_5min
+		  Case 0
+		    display_5min_value = "o'clock"
+		  Case 5
+		    display_5min_value = "5 past"
+		  Case 10
+		    display_5min_value = "10 past"
+		  Case 15
+		    display_5min_value = "quarter past"
+		  Case 20
+		    display_5min_value = "20 past"
+		  Case 25
+		    display_5min_value = "25 past"
+		  Case 30
+		    display_5min_value = "half past"
+		  Case 35
+		    display_5min_value = "25 to"
+		  Case 40
+		    display_5min_value = "20 to"
+		  Case 45
+		    display_5min_value = "quarter to"
+		  Case 50
+		    display_5min_value = "10 to"
+		  Case 55
+		    display_5min_value = "5 to"
+		  End Select
 		  
-		  
-		  'replace with case statement
+		  display_5min.Text = display_5min_value
 		  
 		End Sub
 	#tag EndMethod
