@@ -108,7 +108,7 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
@@ -128,13 +128,13 @@ Begin Window Window1
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   360
+      Top             =   354
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   49
    End
    Begin Label display_5min2
       AutoDeactivate  =   True
@@ -142,12 +142,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   170
+      Left            =   140
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -162,13 +162,13 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   360
+      Top             =   354
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   92
    End
    Begin Label display_5min3
       AutoDeactivate  =   True
@@ -176,12 +176,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   319
+      Left            =   303
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -196,9 +196,9 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   360
+      Top             =   354
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -210,12 +210,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   468
+      Left            =   473
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -230,13 +230,13 @@ Begin Window Window1
       TextAlign       =   2
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   360
+      Top             =   354
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   107
    End
    Begin Label display_5min5
       AutoDeactivate  =   True
@@ -244,7 +244,7 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
@@ -264,9 +264,9 @@ Begin Window Window1
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   328
+      Top             =   316
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -278,12 +278,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   170
+      Left            =   187
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -298,9 +298,9 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   328
+      Top             =   316
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -312,12 +312,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   319
+      Left            =   354
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -332,9 +332,9 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   328
+      Top             =   316
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -346,12 +346,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   468
+      Left            =   520
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -366,13 +366,13 @@ Begin Window Window1
       TextAlign       =   2
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   328
+      Top             =   316
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   60
    End
    Begin Label display_5min9
       AutoDeactivate  =   True
@@ -380,7 +380,7 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
@@ -400,13 +400,13 @@ Begin Window Window1
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   296
+      Top             =   278
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   56
    End
    Begin Label display_5min10
       AutoDeactivate  =   True
@@ -414,12 +414,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   132
+      Left            =   131
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -434,13 +434,13 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   296
+      Top             =   278
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   65
    End
    Begin Label display_5min11
       AutoDeactivate  =   True
@@ -448,12 +448,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   244
+      Left            =   251
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -468,13 +468,13 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   296
+      Top             =   278
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   87
    End
    Begin Label display_5min12
       AutoDeactivate  =   True
@@ -482,12 +482,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   356
+      Left            =   393
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -502,13 +502,13 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   296
+      Top             =   278
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   80
    End
    Begin Label display_5min13
       AutoDeactivate  =   True
@@ -516,7 +516,7 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
@@ -536,9 +536,9 @@ Begin Window Window1
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   264
+      Top             =   240
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -550,12 +550,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   132
+      Left            =   168
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -570,13 +570,13 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   264
+      Top             =   240
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   58
    End
    Begin Label display_5min15
       AutoDeactivate  =   True
@@ -584,12 +584,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   244
+      Left            =   274
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -604,13 +604,13 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   264
+      Top             =   240
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   109
    End
    Begin Label display_5min16
       AutoDeactivate  =   True
@@ -618,12 +618,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   356
+      Left            =   430
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -638,13 +638,13 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   264
+      Top             =   240
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   39
    End
    Begin Label display_5min17
       AutoDeactivate  =   True
@@ -652,7 +652,7 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
@@ -672,13 +672,13 @@ Begin Window Window1
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   232
+      Top             =   202
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   49
    End
    Begin Label display_5min18
       AutoDeactivate  =   True
@@ -686,12 +686,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   170
+      Left            =   163
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -706,13 +706,13 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   232
+      Top             =   202
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   62
    End
    Begin Label display_5min19
       AutoDeactivate  =   True
@@ -720,12 +720,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   319
+      Left            =   318
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -740,13 +740,13 @@ Begin Window Window1
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   232
+      Top             =   202
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   53
    End
    Begin Label display_5min20
       AutoDeactivate  =   True
@@ -754,12 +754,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   468
+      Left            =   464
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -774,13 +774,13 @@ Begin Window Window1
       TextAlign       =   2
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   232
+      Top             =   202
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   116
    End
    Begin Label display_5min21
       AutoDeactivate  =   True
@@ -788,12 +788,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   468
+      Left            =   528
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -808,13 +808,13 @@ Begin Window Window1
       TextAlign       =   2
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   296
+      Top             =   278
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   52
    End
    Begin Label display_5min22
       AutoDeactivate  =   True
@@ -822,12 +822,12 @@ Begin Window Window1
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True
-      Height          =   20
+      Height          =   26
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   468
+      Left            =   516
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -842,13 +842,13 @@ Begin Window Window1
       TextAlign       =   2
       TextColor       =   &c00000000
       TextFont        =   "System"
-      TextSize        =   0.0
+      TextSize        =   24.0
       TextUnit        =   0
-      Top             =   264
+      Top             =   240
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   64
    End
 End
 #tag EndWindow
