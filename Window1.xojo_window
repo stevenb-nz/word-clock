@@ -126,7 +126,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "TEN"
       TextAlign       =   0
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -160,7 +160,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "ELEVEN"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -194,7 +194,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "TWELVE"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -228,7 +228,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "OCLOCK"
       TextAlign       =   2
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -262,7 +262,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "SIX"
       TextAlign       =   0
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -296,7 +296,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "SEVEN"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -330,7 +330,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "EIGHT"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -364,7 +364,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "NINE"
       TextAlign       =   2
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -398,7 +398,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "ONE"
       TextAlign       =   0
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -432,7 +432,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "TWO"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -466,7 +466,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "THREE"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -500,7 +500,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "FOUR"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -534,7 +534,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "TWENTY"
       TextAlign       =   0
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -568,7 +568,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "FIVE"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -602,7 +602,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "MINUTES"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -636,7 +636,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "TO"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -670,7 +670,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "IT IS"
       TextAlign       =   0
-      TextColor       =   &c00000000
+      TextColor       =   &cFB010600
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -704,7 +704,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "HALF"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -738,7 +738,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "TEN"
       TextAlign       =   1
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -772,7 +772,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "QUARTER"
       TextAlign       =   2
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -806,7 +806,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "FIVE"
       TextAlign       =   2
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
@@ -840,7 +840,7 @@ Begin Window Window1
       TabPanelIndex   =   0
       Text            =   "PAST"
       TextAlign       =   2
-      TextColor       =   &c00000000
+      TextColor       =   &cFF999900
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
