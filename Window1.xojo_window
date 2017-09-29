@@ -102,7 +102,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label display_5min1
+   Begin Label hour_ten
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -136,7 +136,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   49
    End
-   Begin Label display_5min2
+   Begin Label hour_eleven
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -170,7 +170,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   92
    End
-   Begin Label display_5min3
+   Begin Label hour_twelve
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -204,7 +204,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label display_5min4
+   Begin Label min_oclock
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -238,7 +238,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   107
    End
-   Begin Label display_5min5
+   Begin Label hour_six
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -272,7 +272,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label display_5min6
+   Begin Label hour_seven
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -306,7 +306,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label display_5min7
+   Begin Label hour_eight
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -340,7 +340,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label display_5min8
+   Begin Label hour_nine
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -374,7 +374,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   60
    End
-   Begin Label display_5min9
+   Begin Label hour_one
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -408,7 +408,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   56
    End
-   Begin Label display_5min10
+   Begin Label hour_two
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -442,7 +442,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   65
    End
-   Begin Label display_5min11
+   Begin Label hour_three
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -476,7 +476,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   87
    End
-   Begin Label display_5min12
+   Begin Label hour_four
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -510,7 +510,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   80
    End
-   Begin Label display_5min13
+   Begin Label min_twenty
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -544,7 +544,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label display_5min14
+   Begin Label min_five
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -578,7 +578,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   58
    End
-   Begin Label display_5min15
+   Begin Label min_minutes
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -612,7 +612,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   109
    End
-   Begin Label display_5min16
+   Begin Label min_to
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -646,7 +646,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   39
    End
-   Begin Label display_5min17
+   Begin Label display_it_is
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -680,7 +680,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   49
    End
-   Begin Label display_5min18
+   Begin Label min_half
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -714,7 +714,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   62
    End
-   Begin Label display_5min19
+   Begin Label min_ten
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -748,7 +748,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   53
    End
-   Begin Label display_5min20
+   Begin Label min_quarter
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -782,7 +782,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   116
    End
-   Begin Label display_5min21
+   Begin Label hour_five
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -816,7 +816,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   52
    End
-   Begin Label display_5min22
+   Begin Label min_past
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
