@@ -9,7 +9,7 @@ Begin Window Window1
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
-   Height          =   400
+   Height          =   220
    ImplicitInstance=   True
    LiveResize      =   True
    MacProcID       =   0
@@ -27,80 +27,16 @@ Begin Window Window1
    Visible         =   True
    Width           =   600
    Begin Timer timeTimer
+      Height          =   0.0
       Index           =   -2147483648
+      Left            =   0.0
       LockedInPosition=   False
       Mode            =   2
       Period          =   1000
       Scope           =   0
       TabPanelIndex   =   0
-   End
-   Begin Label display_hour
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   244
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   0
-      TabPanelIndex   =   0
-      Text            =   "Untitled"
-      TextAlign       =   0
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   20
-      Transparent     =   True
-      Underline       =   False
-      Visible         =   True
-      Width           =   100
-   End
-   Begin Label display_5min
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   132
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   1
-      TabPanelIndex   =   0
-      Text            =   "Untitled"
-      TextAlign       =   0
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   20
-      Transparent     =   True
-      Underline       =   False
-      Visible         =   True
-      Width           =   100
+      Top             =   -181.0
+      Width           =   0.0
    End
    Begin Label hour_ten
       AutoDeactivate  =   True
@@ -130,7 +66,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   354
+      Top             =   173
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -164,7 +100,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   354
+      Top             =   173
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -198,7 +134,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   354
+      Top             =   173
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -232,7 +168,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   354
+      Top             =   173
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -266,7 +202,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   316
+      Top             =   135
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -300,7 +236,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   316
+      Top             =   135
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -334,7 +270,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   316
+      Top             =   135
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -368,7 +304,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   316
+      Top             =   135
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -402,7 +338,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   278
+      Top             =   97
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -436,7 +372,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   278
+      Top             =   97
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -470,7 +406,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   278
+      Top             =   97
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -504,7 +440,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   278
+      Top             =   97
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -538,7 +474,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   240
+      Top             =   59
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -572,7 +508,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   240
+      Top             =   59
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -606,7 +542,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   240
+      Top             =   59
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -640,7 +576,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   240
+      Top             =   59
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -674,7 +610,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   202
+      Top             =   21
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -708,7 +644,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   202
+      Top             =   21
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -742,7 +678,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   202
+      Top             =   21
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -776,7 +712,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   202
+      Top             =   21
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -810,7 +746,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   278
+      Top             =   97
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -844,7 +780,7 @@ Begin Window Window1
       TextFont        =   "System"
       TextSize        =   24.0
       TextUnit        =   0
-      Top             =   240
+      Top             =   59
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -910,7 +846,7 @@ End
 		    display_5min_value = "5 to"
 		  End Select
 		  
-		  display_5min.Text = display_5min_value
+		  'display_5min.Text = display_5min_value
 		  
 		End Sub
 	#tag EndMethod
@@ -920,7 +856,7 @@ End
 		  dim display_hour_value as Integer
 		  
 		  display_hour_value = if(time_5min > 30, if(time_hour<12, time_hour+1, 1), time_hour)
-		  display_hour.text = str(display_hour_value)
+		  'display_hour.text = str(display_hour_value)
 		  
 		End Sub
 	#tag EndMethod
