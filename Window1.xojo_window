@@ -27,18 +27,14 @@ Begin Window Window1
    Visible         =   True
    Width           =   600
    Begin Timer timeTimer
-      Height          =   0.0
       Index           =   -2147483648
-      Left            =   0.0
       LockedInPosition=   False
       Mode            =   2
       Period          =   1000
       Scope           =   0
       TabPanelIndex   =   0
-      Top             =   -181.0
-      Width           =   0.0
    End
-   Begin Label hour_ten
+   Begin Custom_label hour_ten
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -72,7 +68,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   49
    End
-   Begin Label hour_eleven
+   Begin Custom_label hour_eleven
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -106,7 +102,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   92
    End
-   Begin Label hour_twelve
+   Begin Custom_label hour_twelve
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -140,7 +136,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label min_oclock
+   Begin Custom_label min_oclock
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -174,7 +170,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   107
    End
-   Begin Label hour_six
+   Begin Custom_label hour_six
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -208,7 +204,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label hour_seven
+   Begin Custom_label hour_seven
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -242,7 +238,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label hour_eight
+   Begin Custom_label hour_eight
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -276,7 +272,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label hour_nine
+   Begin Custom_label hour_nine
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -310,7 +306,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   60
    End
-   Begin Label hour_one
+   Begin Custom_label hour_one
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -344,7 +340,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   56
    End
-   Begin Label hour_two
+   Begin Custom_label hour_two
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -378,7 +374,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   65
    End
-   Begin Label hour_three
+   Begin Custom_label hour_three
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -412,7 +408,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   87
    End
-   Begin Label hour_four
+   Begin Custom_label hour_four
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -446,7 +442,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   80
    End
-   Begin Label min_twenty
+   Begin Custom_label min_twenty
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -480,7 +476,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   100
    End
-   Begin Label min_five
+   Begin Custom_label min_five
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -514,7 +510,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   58
    End
-   Begin Label min_minutes
+   Begin Custom_label min_minutes
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -548,7 +544,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   109
    End
-   Begin Label min_to
+   Begin Custom_label min_to
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -616,7 +612,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   49
    End
-   Begin Label min_half
+   Begin Custom_label min_half
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -650,7 +646,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   62
    End
-   Begin Label min_ten
+   Begin Custom_label min_ten
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -684,7 +680,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   53
    End
-   Begin Label min_quarter
+   Begin Custom_label min_quarter
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -718,7 +714,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   116
    End
-   Begin Label hour_five
+   Begin Custom_label hour_five
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -752,7 +748,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   52
    End
-   Begin Label min_past
+   Begin Custom_label min_past
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -839,6 +835,8 @@ End
 		  Case 40
 		    display_5min_value = "20 to"
 		  Case 45
+		    min_quarter.toggle
+		    min_to.toggle
 		    display_5min_value = "quarter to"
 		  Case 50
 		    display_5min_value = "10 to"

@@ -5,6 +5,7 @@ Class=App;App.xojo_code;&h2AB7E7FF;&h0;false
 Window=Window1;Window1.xojo_window;&h9590FFF;&h0;false
 MenuBar=MainMenuBar;MainMenuBar.xojo_menu;&h5AD4AFFF;&h0;false
 BuildSteps=Build Automation;Build Automation.xojo_code;&h373797FF;&h0;false
+Class=Custom_label;Custom_label.xojo_code;&h522C57FF;&h0;false
 DefaultWindow=Window1
 AppMenuBar=MainMenuBar
 MajorVersion=1
