@@ -2,10 +2,10 @@
 Begin Window Window1
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   CloseButton     =   True
+   CloseButton     =   False
    Compatibility   =   ""
    Composite       =   False
-   Frame           =   0
+   Frame           =   1
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
@@ -14,25 +14,29 @@ Begin Window Window1
    LiveResize      =   True
    MacProcID       =   0
    MaxHeight       =   32000
-   MaximizeButton  =   True
+   MaximizeButton  =   False
    MaxWidth        =   32000
    MenuBar         =   1523888127
    MenuBarVisible  =   True
    MinHeight       =   64
-   MinimizeButton  =   True
+   MinimizeButton  =   False
    MinWidth        =   64
    Placement       =   0
-   Resizeable      =   True
-   Title           =   "Untitled"
+   Resizeable      =   False
+   Title           =   "Word Clock"
    Visible         =   True
-   Width           =   600
+   Width           =   550
    Begin Timer timeTimer
+      Height          =   0.0
       Index           =   -2147483648
+      Left            =   0.0
       LockedInPosition=   False
       Mode            =   2
       Period          =   1000
       Scope           =   0
       TabPanelIndex   =   0
+      Top             =   0.0
+      Width           =   0.0
    End
    Begin Custom_label hour_ten
       AutoDeactivate  =   True
@@ -79,7 +83,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   140
+      Left            =   125
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -113,7 +117,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   303
+      Left            =   272
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -147,7 +151,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   473
+      Left            =   427
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -168,7 +172,7 @@ Begin Window Window1
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   107
+      Width           =   103
    End
    Begin Custom_label hour_six
       AutoDeactivate  =   True
@@ -202,7 +206,7 @@ Begin Window Window1
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   39
    End
    Begin Custom_label hour_seven
       AutoDeactivate  =   True
@@ -215,7 +219,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   187
+      Left            =   140
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -236,7 +240,7 @@ Begin Window Window1
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   89
    End
    Begin Custom_label hour_eight
       AutoDeactivate  =   True
@@ -249,7 +253,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   354
+      Left            =   310
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -270,7 +274,7 @@ Begin Window Window1
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   100
+      Width           =   80
    End
    Begin Custom_label hour_nine
       AutoDeactivate  =   True
@@ -283,7 +287,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   520
+      Left            =   470
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -351,7 +355,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   131
+      Left            =   119
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -385,7 +389,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   251
+      Left            =   227
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -419,7 +423,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   393
+      Left            =   356
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -487,7 +491,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   168
+      Left            =   155
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -521,7 +525,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   274
+      Left            =   248
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -555,7 +559,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   430
+      Left            =   392
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -623,7 +627,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   163
+      Left            =   146
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -657,7 +661,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   318
+      Left            =   285
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -691,7 +695,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   464
+      Left            =   414
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -725,7 +729,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   528
+      Left            =   478
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -759,7 +763,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   516
+      Left            =   466
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -800,6 +804,39 @@ End
 
 
 	#tag Method, Flags = &h0
+		Sub clear_5min_display()
+		  min_half.clear
+		  min_ten.clear
+		  min_quarter.clear
+		  min_twenty.clear
+		  min_five.clear
+		  min_minutes.clear
+		  min_to.clear
+		  min_past.clear
+		  min_oclock.clear
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub clear_hour_display()
+		  hour_one.clear
+		  hour_two.clear
+		  hour_three.clear
+		  hour_four.clear
+		  hour_five.clear
+		  hour_six.clear
+		  hour_seven.clear
+		  hour_eight.clear
+		  hour_nine.clear
+		  hour_ten.clear
+		  hour_eleven.clear
+		  hour_twelve.clear
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
 		Function get_5min(d as Date) As integer
 		  return floor(val(Mid(d.shorttime,instr(d.ShortTime,":")+1,2))/5)*5
 		End Function
@@ -815,36 +852,54 @@ End
 		Sub set_5min_display()
 		  dim display_5min_value As String
 		  
+		  clear_5min_display
 		  Select Case time_5min
 		  Case 0
-		    display_5min_value = "o'clock"
+		    min_oclock.set
 		  Case 5
-		    display_5min_value = "5 past"
+		    min_five.set
+		    min_minutes.set
+		    min_past.set
 		  Case 10
-		    display_5min_value = "10 past"
+		    min_ten.set
+		    min_minutes.set
+		    min_past.set
 		  Case 15
-		    display_5min_value = "quarter past"
+		    min_quarter.set
+		    min_past.set
 		  Case 20
-		    display_5min_value = "20 past"
+		    min_twenty.set
+		    min_minutes.set
+		    min_past.set
 		  Case 25
-		    display_5min_value = "25 past"
+		    min_twenty.set
+		    min_five.set
+		    min_minutes.set
+		    min_past.set
 		  Case 30
-		    display_5min_value = "half past"
+		    min_half.set
+		    min_past.set
 		  Case 35
-		    display_5min_value = "25 to"
+		    min_twenty.set
+		    min_five.set
+		    min_minutes.set
+		    min_to.set
 		  Case 40
-		    display_5min_value = "20 to"
+		    min_twenty.set
+		    min_minutes.set
+		    min_to.set
 		  Case 45
-		    min_quarter.toggle
-		    min_to.toggle
-		    display_5min_value = "quarter to"
+		    min_quarter.set
+		    min_to.set
 		  Case 50
-		    display_5min_value = "10 to"
+		    min_ten.set
+		    min_minutes.set
+		    min_to.set
 		  Case 55
-		    display_5min_value = "5 to"
+		    min_five.set
+		    min_minutes.set
+		    min_to.set
 		  End Select
-		  
-		  'display_5min.Text = display_5min_value
 		  
 		End Sub
 	#tag EndMethod
@@ -853,8 +908,34 @@ End
 		Sub set_hour_display()
 		  dim display_hour_value as Integer
 		  
+		  clear_hour_display
 		  display_hour_value = if(time_5min > 30, if(time_hour<12, time_hour+1, 1), time_hour)
-		  'display_hour.text = str(display_hour_value)
+		  Select Case display_hour_value
+		  Case 1
+		    hour_one.set
+		  Case 2
+		    hour_two.set
+		  Case 3
+		    hour_three.set
+		  Case 4
+		    hour_four.set
+		  Case 5
+		    hour_five.set
+		  Case 6
+		    hour_six.set
+		  Case 7
+		    hour_seven.set
+		  Case 8
+		    hour_eight.set
+		  Case 9
+		    hour_nine.set
+		  Case 10
+		    hour_ten.set
+		  Case 11
+		    hour_eleven.set
+		  Case 12
+		    hour_twelve.set
+		  End Select
 		  
 		End Sub
 	#tag EndMethod
@@ -877,15 +958,15 @@ End
 		  dim d as new Date
 		  dim d_5min, d_hour as integer
 		  
-		  d_hour = get_hour(d)
-		  if d_hour <> time_hour then
-		    time_hour = d_hour
-		    set_hour_display
-		  end if
 		  d_5min = get_5min(d)
 		  if d_5min <> time_5min then
 		    time_5min = d_5min
 		    set_5min_display
+		  end if
+		  d_hour = get_hour(d)
+		  if d_hour <> time_hour then
+		    time_hour = d_hour
+		    set_hour_display
 		  end if
 		  
 		End Sub

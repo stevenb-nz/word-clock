@@ -2,8 +2,15 @@
 Protected Class Custom_label
 Inherits Label
 	#tag Method, Flags = &h0
-		Sub toggle()
-		  me.TextColor = if(me.TextColor = &cFF9999, &cFF0000, &cFF9999)
+		Sub clear()
+		  me.TextColor = &cFF9999
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub set()
+		  me.TextColor = &cFF0000
 		  
 		End Sub
 	#tag EndMethod
