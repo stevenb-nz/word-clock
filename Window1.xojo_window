@@ -27,16 +27,12 @@ Begin Window Window1
    Visible         =   True
    Width           =   550
    Begin Timer timeTimer
-      Height          =   0.0
       Index           =   -2147483648
-      Left            =   0.0
       LockedInPosition=   False
       Mode            =   2
       Period          =   1000
       Scope           =   0
       TabPanelIndex   =   0
-      Top             =   0.0
-      Width           =   0.0
    End
    Begin Custom_label hour_ten
       AutoDeactivate  =   True
@@ -83,7 +79,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   125
+      Left            =   124
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -117,7 +113,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   272
+      Left            =   271
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -151,7 +147,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   427
+      Left            =   426
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -162,7 +158,7 @@ Begin Window Window1
       Selectable      =   False
       TabIndex        =   5
       TabPanelIndex   =   0
-      Text            =   "OCLOCK"
+      Text            =   "O'CLOCK"
       TextAlign       =   2
       TextColor       =   &cFF999900
       TextFont        =   "System"
@@ -172,7 +168,7 @@ Begin Window Window1
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   103
+      Width           =   104
    End
    Begin Custom_label hour_six
       AutoDeactivate  =   True
@@ -604,7 +600,7 @@ Begin Window Window1
       Selectable      =   False
       TabIndex        =   18
       TabPanelIndex   =   0
-      Text            =   "IT IS"
+      Text            =   "THE TIME IS"
       TextAlign       =   0
       TextColor       =   &cFB010600
       TextFont        =   "System"
@@ -614,7 +610,7 @@ Begin Window Window1
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   49
+      Width           =   134
    End
    Begin Custom_label min_half
       AutoDeactivate  =   True
@@ -627,7 +623,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   146
+      Left            =   203
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -661,7 +657,7 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   285
+      Left            =   313
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
