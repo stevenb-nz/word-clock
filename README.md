@@ -1,3 +1,3 @@
 # word-clock
 
-![screenshot of running app](https://raw.githubusercontent.com/stevenb-nz/word-clock-xojo/master/wordclock.png)
+![screenshot of running app](http://stevenb-nz.github.io/assets/img/wordclock.png)
