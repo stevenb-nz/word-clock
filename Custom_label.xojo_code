@@ -3,7 +3,7 @@ Protected Class Custom_label
 Inherits Label
 	#tag Method, Flags = &h0
 		Sub clear()
-		  me.TextColor = &cFF9999
+		  me.TextColor = &cEDADAD
 		  
 		End Sub
 	#tag EndMethod
@@ -151,6 +151,13 @@ Inherits Label
 			Group="Position"
 			InitialValue="0"
 			Type="Integer"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="TabStop"
+			Visible=true
+			Group="Position"
+			InitialValue="True"
+			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Text"
