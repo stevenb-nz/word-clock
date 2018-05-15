@@ -3,14 +3,14 @@ Protected Class Custom_label
 Inherits Label
 	#tag Method, Flags = &h0
 		Sub clear()
-		  me.TextColor = &cEDADAD
+		  me.TextColor = Window1.off_colour
 		  
 		End Sub
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
 		Sub set()
-		  me.TextColor = &cFF0000
+		  me.TextColor = window1.on_colour
 		  
 		End Sub
 	#tag EndMethod
@@ -228,6 +228,7 @@ Inherits Label
 			Group="Appearance"
 			InitialValue="False"
 			Type="Boolean"
+			EditorType="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Underline"
@@ -248,6 +249,18 @@ Inherits Label
 			Group="Position"
 			InitialValue="100"
 			Type="Integer"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="on_colour"
+			Group="Behavior"
+			InitialValue="&cFF0000"
+			Type="Color"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="off_colour"
+			Group="Behavior"
+			InitialValue="&cEDADAD"
+			Type="Color"
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class

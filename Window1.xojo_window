@@ -8,7 +8,7 @@ Begin Window Window1
    Frame           =   1
    FullScreen      =   False
    FullScreenButton=   False
-   HasBackColor    =   False
+   HasBackColor    =   True
    Height          =   220
    ImplicitInstance=   True
    LiveResize      =   True
@@ -594,7 +594,7 @@ Begin Window Window1
       Visible         =   True
       Width           =   39
    End
-   Begin Label display_it_is
+   Begin Custom_label display_it_is
       AutoDeactivate  =   True
       Bold            =   False
       DataField       =   ""
@@ -809,13 +809,15 @@ End
 
 #tag WindowCode
 	#tag Event
+		Function MouseDown(X As Integer, Y As Integer) As Boolean
+		  reset_window
+		  return true
+		End Function
+	#tag EndEvent
+
+	#tag Event
 		Sub Open()
-		  dim d as new Date
-		  
-		  time_hour = get_hour(d)
-		  time_5min = get_5min(d)
-		  set_hour_display
-		  set_5min_display
+		  reset_window
 		  
 		End Sub
 	#tag EndEvent
@@ -864,6 +866,21 @@ End
 		Function get_hour(d as Date) As integer
 		  return val(left(d.ShortTime,InStr(d.ShortTime,":")-1))
 		End Function
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub reset_window()
+		  set_random_colours
+		  display_it_is.set
+		  
+		  dim d as new Date
+		  
+		  time_hour = get_hour(d)
+		  time_5min = get_5min(d)
+		  set_hour_display
+		  set_5min_display
+		  
+		End Sub
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
@@ -958,6 +975,37 @@ End
 		End Sub
 	#tag EndMethod
 
+	#tag Method, Flags = &h0
+		Sub set_random_colours()
+		  dim rb1,rb2,rb3 as Integer
+		  
+		  Using Xojo.Math
+		  rb1 = RandomInt(0, 1)
+		  rb2 = RandomInt(0, 1)
+		  rb3 = RandomInt(0, 1)
+		  
+		  window1.BackColor = rgb(if(rb1=1,&h18,&he7),if(rb2=1,&h18,&he7),if(rb3=1,&h18,&he7))
+		  window1.on_colour = rgb(if(rb1=1,&hff,&h00),if(rb2=1,&hff,&h00),if(rb3=1,&hff,&h00))
+		  window1.off_colour = rgb(if(rb1=1,&h58,&had),if(rb2=1,&h58,&had),if(rb3=1,&h58,&had))
+		  
+		End Sub
+	#tag EndMethod
+
+
+	#tag Property, Flags = &h0
+		bg_colour As Color
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
+		off_colour As Color = &cEDADAD
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
+		#tag Note
+			Public Property on_colour as String
+		#tag EndNote
+		on_colour As Color = &cFF0000
+	#tag EndProperty
 
 	#tag Property, Flags = &h0
 		time_5min As Integer
@@ -1224,5 +1272,23 @@ End
 		Group="Size"
 		InitialValue="600"
 		Type="Integer"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="bg_colour"
+		Group="Behavior"
+		InitialValue="&c000000"
+		Type="Color"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="off_colour"
+		Group="Behavior"
+		InitialValue="&cEDADAD"
+		Type="Color"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="on_colour"
+		Group="Behavior"
+		InitialValue="&cFF0000"
+		Type="Color"
 	#tag EndViewProperty
 #tag EndViewBehavior
