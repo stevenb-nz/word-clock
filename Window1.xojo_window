@@ -817,6 +817,7 @@ End
 
 	#tag Event
 		Sub Open()
+		  scaleFactor = self.Width / 550
 		  reset_window
 		  
 		End Sub
@@ -825,6 +826,8 @@ End
 	#tag Event
 		Sub Resized()
 		  self.Height = Round(self.Width*2/5)
+		  scaleFactor = self.Width / 550
+		  MsgBox str(scaleFactor)
 		  
 		End Sub
 	#tag EndEvent
@@ -1012,6 +1015,10 @@ End
 			Public Property on_colour as String
 		#tag EndNote
 		on_colour As Color = &cFF0000
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
+		scaleFactor As Double
 	#tag EndProperty
 
 	#tag Property, Flags = &h0
