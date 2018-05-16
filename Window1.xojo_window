@@ -1,6 +1,6 @@
 #tag Window
 Begin Window Window1
-   BackColor       =   &cFFFFFF00
+   BackColor       =   &cE1E1E100
    Backdrop        =   0
    CloseButton     =   False
    Compatibility   =   ""
@@ -18,11 +18,11 @@ Begin Window Window1
    MaxWidth        =   32000
    MenuBar         =   1523888127
    MenuBarVisible  =   True
-   MinHeight       =   64
+   MinHeight       =   8
    MinimizeButton  =   False
-   MinWidth        =   64
+   MinWidth        =   20
    Placement       =   0
-   Resizeable      =   False
+   Resizeable      =   True
    Title           =   "Word Clock"
    Visible         =   True
    Width           =   550
@@ -818,6 +818,13 @@ End
 	#tag Event
 		Sub Open()
 		  reset_window
+		  
+		End Sub
+	#tag EndEvent
+
+	#tag Event
+		Sub Resized()
+		  self.Height = Round(self.Width*2/5)
 		  
 		End Sub
 	#tag EndEvent
