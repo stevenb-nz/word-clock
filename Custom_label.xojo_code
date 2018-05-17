@@ -23,10 +23,11 @@ Inherits Label
 
 	#tag Method, Flags = &h0
 		Sub scale()
-		  me.Left = me.defaultBounds.Left * window1.scaleFactor
-		  me.Top = me.defaultBounds.Top * window1.scaleFactor
-		  me.Width = me.defaultBounds.Width * window1.scaleFactor
-		  me.Height = me.defaultBounds.Height * window1.scaleFactor
+		  me.Left = round(me.defaultBounds.Left * window1.scaleFactor)
+		  me.Top = round(me.defaultBounds.Top * window1.scaleFactor)
+		  me.Width = round(me.defaultBounds.Width * window1.scaleFactor)
+		  me.Height = round(me.defaultBounds.Height * window1.scaleFactor)
+		  me.TextSize = round(24 * Window1.scaleFactor)
 		  
 		End Sub
 	#tag EndMethod

@@ -627,7 +627,7 @@ Begin Window Window1
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   134
+      Width           =   145
    End
    Begin Custom_label min_half
       AutoDeactivate  =   True
