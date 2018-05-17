@@ -827,7 +827,12 @@ End
 		Sub Resized()
 		  self.Height = Round(self.Width*2/5)
 		  scaleFactor = self.Width / 550
-		  MsgBox str(scaleFactor)
+		  
+		  For i As Integer = 0 To Self.ControlCount-1
+		    If Self.Control(i) IsA Custom_label Then
+		      custom_label(control(i)).scale
+		    End If
+		  Next
 		  
 		End Sub
 	#tag EndEvent
@@ -1304,5 +1309,10 @@ End
 		Group="Behavior"
 		InitialValue="&cFF0000"
 		Type="Color"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="scaleFactor"
+		Group="Behavior"
+		Type="Double"
 	#tag EndViewProperty
 #tag EndViewBehavior

@@ -1,9 +1,32 @@
 #tag Class
 Protected Class Custom_label
 Inherits Label
+	#tag Event
+		Sub Open()
+		  me.defaultBounds = new Rectangle
+		  
+		  me.defaultBounds.Left = me.Left
+		  me.defaultBounds.Top = me.Top
+		  me.defaultBounds.Width = me.Width
+		  me.defaultBounds.Height = me.Height
+		  
+		End Sub
+	#tag EndEvent
+
+
 	#tag Method, Flags = &h0
 		Sub clear()
 		  me.TextColor = Window1.off_colour
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub scale()
+		  me.Left = me.defaultBounds.Left * window1.scaleFactor
+		  me.Top = me.defaultBounds.Top * window1.scaleFactor
+		  me.Width = me.defaultBounds.Width * window1.scaleFactor
+		  me.Height = me.defaultBounds.Height * window1.scaleFactor
 		  
 		End Sub
 	#tag EndMethod
@@ -14,6 +37,11 @@ Inherits Label
 		  
 		End Sub
 	#tag EndMethod
+
+
+	#tag Property, Flags = &h0
+		defaultBounds As Rectangle
+	#tag EndProperty
 
 
 	#tag ViewBehavior
@@ -249,18 +277,6 @@ Inherits Label
 			Group="Position"
 			InitialValue="100"
 			Type="Integer"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="on_colour"
-			Group="Behavior"
-			InitialValue="&cFF0000"
-			Type="Color"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="off_colour"
-			Group="Behavior"
-			InitialValue="&cEDADAD"
-			Type="Color"
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class
